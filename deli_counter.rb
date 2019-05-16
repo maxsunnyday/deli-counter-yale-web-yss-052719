@@ -4,7 +4,7 @@ def line(array)
   else
     puts "The line is currently:"
     array.each do |person|
-      print person
+      print "hi"
     end
   end
 end
