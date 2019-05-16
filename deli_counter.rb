@@ -4,7 +4,7 @@ def line(array)
   else
     order = ""
     array.each_with_index do |person, index|
-      order = order + "#{index + 1}. #{person}"
+      order = order + "#{index + 1}. #{person} "
     end
     puts "The line is currently: #{order}"
   end
