@@ -3,9 +3,9 @@ def line(array)
     puts "The line is currently empty."
   else
     print "The line is currently:"
-    array.each do |person|
-      print "hi"
-    end
+    #array.each do |person|
+    #  print "hi"
+    #end
   end
 end
 
