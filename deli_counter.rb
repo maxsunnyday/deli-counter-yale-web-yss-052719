@@ -3,7 +3,7 @@ def line(array)
     puts "The line is currently empty."
   else
     order = ""
-    array.each+with_index do |person, index|
+    array.each_with_index do |person, index|
       order = order + "#{index + 1}. #{person}"
     end
     puts "The line is currently: #{order}"
