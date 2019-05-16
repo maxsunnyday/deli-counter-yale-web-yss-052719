@@ -2,10 +2,11 @@ def line(array)
   if array == []
     puts "The line is currently empty."
   else
-    puts "The line is currently:"
+    puts "The line is currently: #{
     array.each_with_index do |person, index|
       puts "hi"
     end
+    }"
   end
 end
 
